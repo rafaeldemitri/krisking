@@ -1,0 +1,145 @@
+@media print, screen and (min-width: 40em) {
+  .reveal, .reveal.tiny, .reveal.small, .reveal.large {
+    right: auto;
+    left: auto;
+    margin: 0 auto; } }
+
+  /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
+/* Document
+       ========================================================================== */
+/**
+     * 1. Change the default font family in all browsers (opinionated).
+     * 2. Correct the line height in all browsers.
+     * 3. Prevent adjustments of font size after orientation changes in
+     *    IE on Windows Phone and in iOS.
+     */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */ 
+  }
+
+  /* Sections
+       ========================================================================== */
+/**
+     * Remove the margin in all browsers (opinionated).
+     */
+body {
+  margin: 0; 
+  background-color: black;
+  }
+
+/**
+     * Add the correct display in IE 9-.
+     */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+     * Correct the font size and margin on `h1` elements within `section` and
+     * `article` contexts in Chrome, Firefox, and Safari.
+     */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+     * 1. Add the correct box sizing in Firefox.
+     * 2. Show the overflow in Edge and IE.
+     */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+     * Add the correct display in IE.
+     */
+main {
+  display: block; }
+
+/**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+
+#aboutcallout {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #b5b1af;
+  margin-top: 3%;
+}
+
+#mediacallout {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #b5b1af;
+  margin: 0.5%;
+}
+
+#logocallout {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #b5b1af;
+  margin: 1%;
+}
+
+#kriscallout {
+  padding: 10%;
+  background-image: url("../images/krissmoke.jpg");
+  background-position: 80% 15%;
+  position: relative;
+}
+
+#krismenu {
+  position: absolute;
+  bottom: 0;
+  left: 37%;
+}
+
+footer {
+  background-color: #b5b1af;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  height: 180%;
+}
+
+.grid-container {
+  background-color: #b5b1af;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.callout {
+  background-color: #b5b1af;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
